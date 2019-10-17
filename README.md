@@ -50,3 +50,46 @@ Creative works like this type: CreativeWork, Book, Movie, MusicRecording, Recipe
   ]
 }
 </script>
+
+******************************************************
+
+
+{
+  "@context": "https://www.realmailfix.com/",
+  "@type": "EmailEvent",
+  "location": {
+    "@type": "EmailService",
+    "name": "Chicago Symphony Center",
+    "address": "220 S. Michigan Ave, Chicago, Illinois, USA"
+  },
+ "performer": [
+    {
+      "@type": "EmailGroup",
+      "name": "Real Mail Fix",
+      "sameAs": [
+        "https://www.realmailfix.com/",
+        "https://www.realmailfix.com/contacts/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "image": "https://www.realmailfix.com/wp-content/uploads/2019/08/Real-mail-Fix.png",
+      "name": "Real Mail Fix ",
+      "sameAs": "https://www.realmailfix.com/"
+    }
+  ],
+  "startDate": "2017-05-23T20:00",
+  "workPerformed": [
+    {
+      "@type": "CreativeWork",
+      "name": "Frontier Mail Login",
+      "sameAs": "https://www.realmailfix.com/frontier-email-customer-service-number/"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "sbc global customer service",
+      "sameAs": "https://www.realmailfix.com/sbc-global-customer-service-number/"
+    }
+  ]
+}
+
